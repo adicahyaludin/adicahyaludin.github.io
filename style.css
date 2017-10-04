@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: arial, sans-serif;
+    font-family: 'Poiret One', cursive, sans-serif;
+    color: #fff;
 }
 body {
-    background-color: #CCCCCC;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 header {
-    padding: 115px 60px 60px;
+    padding: 96px 65px 60px;
 }
 header h1 {
     font-size: 60px;
@@ -19,7 +22,7 @@ header p {
     letter-spacing: 6px;
 }
 #descriptions {
-    padding: 0px 60px 60px;
+    padding: 0px 65px 60px;
 }
 #descriptions p {
     line-height: 26px;
@@ -27,27 +30,27 @@ header p {
 }
 #descriptions p a {
     text-decoration: none;
-    color: #fff;
-    background: black;
+    color: #000;
+    background: #fff;
     padding: 3px 6px;
+    font-weight: bold;
 }
 #links {
-    padding: 0px 60px 60px;
+    padding: 0px 65px 60px;
 }
 #links a {
-    text-decoration: none;
+    text-decoration: none; 
     line-height: 32px;
-    color: black;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
     padding: 3px;
-    margin-right: 6px;
     letter-spacing: 3px;
+    margin-right: 5px;
 }
 #links a:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid #fff;
 }
 footer {
-    padding: 0px 60px 60px;
+    padding: 0px 65px 60px;
 }
 footer p {
     letter-spacing: 2px;
