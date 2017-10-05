@@ -16,6 +16,7 @@ header {
 header h1 {
     font-size: 60px;
     letter-spacing: 6px;
+    word-wrap: break-word;
 }
 header p {
     font-size: 33px;
